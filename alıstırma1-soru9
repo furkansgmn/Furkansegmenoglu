@@ -1,0 +1,7 @@
+#Bu kod 1 ile 999 arasindaki rakamlari toplami 9dan kucuk olan sayilari yan yana yazar.
+for sayi in range (1,1000):
+    a=sayi//100
+    b=(sayi-100*a)//10
+    c=sayi%10
+    if a+b+c < 9:
+        print(sayi,end=" ")
