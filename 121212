@@ -1,0 +1,15 @@
+#Bu kod carpımları 121212 olan birbirine en yakin 2 sayiyi bulur.
+k=0
+b=0
+a=0
+while k<121213:
+    while a < 121213:
+        b=a+k
+        if a*b == 121212:
+            print(a)
+            print(b)
+            k=121214
+        a=a+1
+    a=0
+    b=0
+    k=k+1
