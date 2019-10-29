@@ -1,0 +1,6 @@
+#Bu kod icerisinde farklı tip eleman bulunan demetin sadece string olan elemanlarini ekrana yazdirir.
+demetim = (271,3.14,"Mustafa",1.618,"Kemal","Atatürk",5,7)
+for i in demetim:
+    if type(i) == str:
+        print(i)
+
