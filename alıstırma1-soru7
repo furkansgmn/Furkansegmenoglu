@@ -1,0 +1,8 @@
+#Bu kod ilk rakami son rakamindan buyuk olan 4 basamaklı sayilari verir.
+sayac = 0
+for sayi in range (1000,10000):
+    a=sayi//1000
+    b=sayi%10
+    if a>b:
+        sayac=sayac +1
+print(sayac)
