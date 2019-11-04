@@ -1,0 +1,22 @@
+#superasal
+def asalmi(n):
+    if n == 2:
+        return 1
+    elif n == 1:
+        return 0
+    else:
+        for k in range(2,n//2):
+            if n%k == 0:
+                return 0
+        return 1
+def superasal(n):
+    if asalmi(n):
+        if n<10:
+            return 1
+        else:
+            return superasal(n//10)
+    else:
+        return 0
+for a in range (10000,100000):
+    if superasal(a):
+        print(a)
