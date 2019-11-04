@@ -1,0 +1,6 @@
+#Bu kod 1den n'e kadar sayilarin toplamini rekursif calisarak bulur.
+def toplam(n):
+    if n == 1:
+        return 1
+    else:
+        return n + toplam(n-1)
