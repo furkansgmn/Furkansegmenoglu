@@ -1,7 +1,6 @@
 #mastermind oyunu
 import random
-def fonk(z):
-    #fonk() hata veriyor.
+def fonk():
     liste=list(range(10,100))
     a=random.choice(liste)
     while a%11 == 0:
@@ -27,5 +26,6 @@ def fonk(z):
                     y=y+1
             print("dogruyer: ", t)
             print("yanlisyer: ", y)
+fonk()
         
       
